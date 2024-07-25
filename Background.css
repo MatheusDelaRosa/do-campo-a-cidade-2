@@ -1,0 +1,24 @@
+/* CSS */
+.background {
+  background-image: url('https://example.com/background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adicione estilos adicionais para o conteúdo do site aqui */
+/* Gradiente de fundo */
+.background {
+  background-image: linear-gradient(to bottom, #f2f2f2, #cccccc);
+}
+
+/* Textura de fundo */
+.background {
+  background-image: url('https://example.com/background-texture.jpg');
+  background-size: 300px 300px;
+  background-position: 0 0, 300px 0, 0 300px, 300px 300px;
+}

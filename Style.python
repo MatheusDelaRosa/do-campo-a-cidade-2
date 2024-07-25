@@ -1,0 +1,31 @@
+import random
+
+COUNTRYSIDE_QUOTES = [
+    "The countryside is the home of simplicity.",
+    "Nature in the countryside is not hidden, as it is in the city.",
+    "The quiet of the countryside is a healing balm for the soul.",
+    "The beauty of the countryside is a constant reminder of the wonder of creation.",
+    "The peacefulness of the countryside is a welcome respite from the hustle and bustle of city life.",
+]
+
+def get_random_quote():
+    return random.choice(COUNTRYSIDE_QUOTES)
+
+if __name__ == '__main__':
+    print(f'Content-Type: text/html\n')
+    print('<html>')
+    print('<head>')
+    print('<meta charset="UTF-8">')
+    print('<meta name="viewport" content="width=device-width, initial-scale=1.0">')
+    print('<title>Countryside Theme</title>')
+    print('<link rel="stylesheet" href="styles.css">')
+    print('</head>')
+    print('<body>')
+    print('<header>')
+    print('<h1>Welcome to the Countryside</h1>')
+    print('</header>')
+    print('<main>')
+    print('<p>This is a simple website with a countryside theme, built using HTML, CSS, and Python.</p>')
+    print('<p>Feel free to explore and enjoy the peaceful atmosphere.</p>')
+    print(f'<p><em>"{get_random_quote()}"</em></p>')
+    print('
